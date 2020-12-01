@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fingerprint_system</string>
+    <string name="fingerprint_system">Fingerprint System</string>
+    <string name="use_your_fingerprint_to_login">Use your fingerprint to login</string>
+    <string name="login">Login</string>
+    <string name="err_none_enrolled">You currently do not have any fingerprint saved on your device </string>
+    <string name="err_unavailable">Biometrics sensor currently unavailable</string>
+    <string name="err_no_hardware">Your device dose not have a finger print sensor</string>
+    <string name="success">You can successfully login with the fingerprint  sensor </string>
+
+</resources>

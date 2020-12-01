@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FingerPrintActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#031F35">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_your_fingerprint_to_login"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="#fafafa"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+    <ImageView
+        android:id="@+id/fingerImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginVertical="30dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_baseline_fingerprint_24"/>
+
+    <TextView
+        android:id="@+id/textMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginVertical="20dp"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_medium"
+        android:background="#EB3A54"/>
+
+</LinearLayout>
